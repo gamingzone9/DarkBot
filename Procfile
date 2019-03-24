@@ -1,1 +1,1 @@
-worker: python Gamingzonepremium.py
+worker: python Gaming Zone premium.py
