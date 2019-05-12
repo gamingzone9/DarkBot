@@ -13,7 +13,7 @@ from discord import Game, Embed, Color, Status, ChannelType
 
 
 Forbidden= discord.Embed(title="Permission Denied", description="1) Please check whether you have permission to perform this action or not. \n2) Please check whether my role has permission to perform this action in this channel or not. \n3) Please check my role position.", color=0x00ff00)
-client = Bot(description="DarkBot Bot is best", command_prefix="d!", pm_help = True)
+client = Bot(description="DarkBot Bot is best", command_prefix="gz!", pm_help = True)
 client.remove_command('help')
 
 
@@ -826,4 +826,4 @@ async def embed(ctx, *args):
     await client.delete_message(ctx.message)
 
 
-client.run(os.getenv('NTU4OTQ2OTUxNTg0OTQwMDMz.D3e-kg.0H552n98VFCaCaIE3yR07QsrINs')
+client.run(os.getenv('NTYzMjUyMDQ2MDg2Nzk5Mzcx.XNe9Pg.485q6A0yMeo9O9RQsUWryXXjTss')
